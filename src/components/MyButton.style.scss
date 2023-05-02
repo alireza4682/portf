@@ -2,16 +2,6 @@ $mybutton-color1:#fec195;
 $mybutton-color2:#fec1958c;
 $mybutton-color3:#fffdef;
 
-@mixin primaryButton($color1: $mybutton-color1, $color2: $mybutton-color2) {
-  background-color: $color1;
-  border: 3px solid $color1;
-  box-shadow: 0 0 0 $color2;
-}
-
-@mixin primaryStar($color3:$mybutton-color3){
-  filter: drop-shadow(0 0 0 $mybutton-color3);
-}
-
 .mybutton {
   position: relative;
   padding: 12px 35px;
