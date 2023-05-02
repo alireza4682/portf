@@ -5,12 +5,6 @@ const Navbar = () => {
       <div className="mybtn1">
         <a href="#">Read more 1</a>
       </div>
-      <div className="mybtn1">
-        <a href="#">Read more 2</a>
-      </div>
-      <div className="mybtn1">
-        <a href="#">Read more 3</a>
-      </div>
     </div>
   );
 };
